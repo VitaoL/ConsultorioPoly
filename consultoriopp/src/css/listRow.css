@@ -1,0 +1,25 @@
+.listRow_div {
+    width: 100%;
+}
+
+.listRow_ul {
+    width: 80%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.listRow_li {
+    list-style: none;
+    max-width: 200px;
+    text-align: center;
+    font-size: 15px !important;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.listRow_h1 {
+    font-size: medium;
+    font-weight: bold;
+}

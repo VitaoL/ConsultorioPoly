@@ -1,0 +1,94 @@
+.navBar_div {
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0 !important;
+    background-color: white;
+    z-index: 10;
+}
+
+.navBar_p {
+    font-family: cursive;
+    font-size: 1.2em;
+    width: fit-content;
+}
+
+.navBar_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.navBar_ul {
+    width: 45%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.navBar_li {
+    list-style: none;
+}
+
+
+.navBar_a {
+    color: var(--primary-color-text);
+    position: relative;
+    text-decoration: none;
+}
+
+.navBar_a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-radius: 1px;
+    background-color: var(--primary-color-text);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.navBar_a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .navBar_ul {
+        flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .navBar_nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        height: 70px;
+    }
+
+    .navBar_p {
+        margin: 10px 0 0 0;
+    }
+
+    .navBar_ul {
+        padding-left: 0;
+        padding-bottom: 15px;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+}

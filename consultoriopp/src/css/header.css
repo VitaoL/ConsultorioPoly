@@ -1,0 +1,15 @@
+.header_header {
+    background-color: var(--primary-color);
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .header_section {
+        display: none;
+    }
+}
