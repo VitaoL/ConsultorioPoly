@@ -7,3 +7,11 @@
     background-color: var(--primary-color);
     font-family: var(--secondary-font);
 }
+
+@media only screen and (max-width: 400px) {
+    .separator_div {
+        width: auto;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+}

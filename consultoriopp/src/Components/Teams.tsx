@@ -22,7 +22,8 @@ const Team = ({ props }: listOfTeam) => {
     console.log(element);
     return (
         <div className="teams_div">
-            <div className="teams_div_2">
+            <h1>CONHEÇA NOSSA EQUIPE</h1>
+            {/*<div className="teams_div_2">
                 {props.map((element, index) => (
                     <p
                         className={`teams_p ${checkId === element.id ? "backgroundColo" : "" }`}
@@ -32,14 +33,14 @@ const Team = ({ props }: listOfTeam) => {
                         {element.name}
                     </p>
                 ))}
-            </div>
+                </div>*/}
             <div className="teams_div_3">
-                {element && (
+                {props.map((element, index) => (
                     <Card className="teams_card">
                         <Box sx={{ display: "flex", flexDirection: "row" }}>
                             <CardMedia
                                 className="teams_img"
-                                sx={{ width: 151 }}
+                                sx={{ width: 130 }}
                                 component="img"
                                 image={mainLogo}
                                 title={element.name}
@@ -61,7 +62,7 @@ const Team = ({ props }: listOfTeam) => {
                             </CardContent>
                         </Box>
                     </Card>
-                )}
+                ))}
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ const Intro = () => {
                     estar atentos ao que há de mais moderno e eficaz em
                     odontologia e estética.
                 </p>
-                <Button variant="contained" size="large">Atendimento via WhatsApp</Button>
+                <Button variant="contained" size="large" className="intro_button">Atendimento via WhatsApp</Button>
             </section>
             <section className="intro_section_2">
                 <img

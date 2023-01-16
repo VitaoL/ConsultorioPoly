@@ -15,7 +15,6 @@ function App() {
             <Intro />
             <Separator {...Contato} />
             <ListRow props={Qualidade} />
-            <Separator {...Contato} />
             <Teams props={Team}/>
 
         </div>
