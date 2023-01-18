@@ -8,7 +8,7 @@
     font-family: var(--secondary-font);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .separator_div {
         width: auto;
         padding: 0 10px;

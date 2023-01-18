@@ -38,7 +38,7 @@
     height: auto;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .intro_div {
         width: 95%;
         display: grid;

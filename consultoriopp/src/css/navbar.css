@@ -70,7 +70,7 @@
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .navBar_nav {
         display: flex;
         flex-direction: column;
