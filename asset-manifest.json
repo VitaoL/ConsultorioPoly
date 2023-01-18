@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ConsultorioPoly/static/css/main.6c13dce0.css",
+    "main.js": "/ConsultorioPoly/static/js/main.99d395bb.js",
+    "static/js/787.c5819935.chunk.js": "/ConsultorioPoly/static/js/787.c5819935.chunk.js",
+    "index.html": "/ConsultorioPoly/index.html",
+    "main.6c13dce0.css.map": "/ConsultorioPoly/static/css/main.6c13dce0.css.map",
+    "main.99d395bb.js.map": "/ConsultorioPoly/static/js/main.99d395bb.js.map",
+    "787.c5819935.chunk.js.map": "/ConsultorioPoly/static/js/787.c5819935.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c13dce0.css",
+    "static/js/main.99d395bb.js"
+  ]
+}
