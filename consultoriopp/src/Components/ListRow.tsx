@@ -13,9 +13,9 @@ const ListRow = ({ props }: listOfQualidade) => {
             <ul className="listRow_ul">
                 {props.map((element, index) => (
                     <li key={index} className="listRow_li">
-                        <svg width="100" height="100">
+                        {/*<svg width="100" height="100">
                             <img src={insulina} alt="asdf" />
-                        </svg>
+                        </svg>*/}
                         <h1 className="listRow_h1">{element.title}</h1>
                         <p className="listRow_p">{element.description}</p>
                     </li>

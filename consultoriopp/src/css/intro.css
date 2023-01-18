@@ -40,15 +40,20 @@
 
 @media only screen and (max-width: 400px) {
     .intro_div {
-       width: 100%;
-    }
-    .intro_div {
+        width: 95%;
         display: grid;
         grid-template-columns: 100% 0;
         margin: 0 auto;
         align-items: center;
-        width: 80%;
         justify-content: space-between;
+    }
+
+    .intro_button {
+        visibility: hidden  ;
+    }
+
+    .intro_section_1 {
+        margin-bottom: 15px;
     }
 
     .intro_section_2 {
