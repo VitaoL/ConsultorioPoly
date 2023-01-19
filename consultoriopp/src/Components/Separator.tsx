@@ -3,6 +3,10 @@ import "../css/separator.css";
 import { ContatoProps } from "../_Mock/infoGerais";
 
 const Separator = ({ title, description }: ContatoProps) => {
+    const openInNewTab = (url: string) => {
+        window.open(url, '_blank', 'noreferrer');
+      };
+    
     return (
         <div className="separator_div" id="cell">
             <section>
@@ -10,7 +14,7 @@ const Separator = ({ title, description }: ContatoProps) => {
                 <p className="separator_p">{description}</p>
             </section>
             <section>
-                <Button variant="contained">aqui algo</Button>
+                <Button variant="contained" onClick={() => openInNewTab("https://wa.me/5531988211146")}>aqui algo</Button>
             </section>
         </div>
     );
