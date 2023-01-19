@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ConsultorioPoly/static/css/main.52274a07.css",
-    "main.js": "/ConsultorioPoly/static/js/main.b57b7f8b.js",
+    "main.js": "/ConsultorioPoly/static/js/main.e2fb22bb.js",
     "static/js/787.c5819935.chunk.js": "/ConsultorioPoly/static/js/787.c5819935.chunk.js",
     "index.html": "/ConsultorioPoly/index.html",
     "main.52274a07.css.map": "/ConsultorioPoly/static/css/main.52274a07.css.map",
-    "main.b57b7f8b.js.map": "/ConsultorioPoly/static/js/main.b57b7f8b.js.map",
+    "main.e2fb22bb.js.map": "/ConsultorioPoly/static/js/main.e2fb22bb.js.map",
     "787.c5819935.chunk.js.map": "/ConsultorioPoly/static/js/787.c5819935.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52274a07.css",
-    "static/js/main.b57b7f8b.js"
+    "static/js/main.e2fb22bb.js"
   ]
 }
