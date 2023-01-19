@@ -34,36 +34,24 @@ const Team = ({ props }: listOfTeam) => {
                     </p>
                 ))}
                 </div>*/}
-            <div className="teams_div_3">
-                {props.map((element, index) => (
-                    <Card className="teams_card">
-                        <Box sx={{ display: "flex", flexDirection: "row" }}>
-                            <CardMedia
-                                className="teams_img"
-                                sx={{ width: 130 }}
-                                component="img"
-                                image={mainLogo}
-                                title={element.name}
-                            />
-                            <CardContent>
-                                <Typography
-                                    gutterBottom
-                                    variant="h5"
-                                    component="div"
-                                >
-                                    {element.name} - CRO {element.cro}
-                                </Typography>
 
-                                <ul>
-                                    {element.info.map((algo, index) => (
-                                        <li key={index}>{algo}</li>
-                                    ))}
-                                </ul>
-                            </CardContent>
-                        </Box>
-                    </Card>
-                ))}
-            </div>
+            {props.map((element, index) => (
+                <div className="teams_div_2">
+                    <img className="teams_img" src={mainLogo}></img>
+                    <section className="teams_section">
+                        <h2>
+                            {element.name} - CRO - {element.cro}
+                        </h2>
+                        <ul>
+                            {element.info.map((algo, index) => (
+                                <li className="teams_li" key={index}>
+                                    {algo}
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                </div>
+            ))}
         </div>
     );
 };
